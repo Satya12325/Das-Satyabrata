@@ -1,287 +1,327 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" href="assets/img/logo.png">
-        <link rel="stylesheet" href="assets/css/styles.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="assets/img/logo.png" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
       rel="stylesheet"
       href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
       integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
       crossorigin="anonymous"
     />
-        <!-- =====BOX ICONS===== -->
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <!-- =====BOX ICONS===== -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
 
-        <title>Satyabrata Das</title>
-    </head>
-    <body>
-        <!-- particles.js container -->
-<div id="particles-js"></div>
+    <title>Portfolio website complete</title>
+  </head>
+  <body>
+    <!-- particles.js container -->
+    <div id="particles-js"></div>
 
-<!-- stats - count particles -->
-<div class="count-particles">
-  <span class="js-count-particles"></span>
-</div>
+    <!-- stats - count particles -->
+    <div class="count-particles">
+      <span class="js-count-particles"></span>
+    </div>
 
+    <!--===== HEADER =====-->
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div>
+          <a href="#" class="nav__logo"><img src="assets/img/logo.png" /></a>
+        </div>
 
-        <!--===== HEADER =====-->
-        <header class="l-header">
-            <nav class="nav bd-grid">
-                <div>
-                    <a href="#" class="nav__logo"><img src="assets/img/logo.png"></a>
-                </div>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">Skills</a>
+            </li>
+            <li class="nav__item">
+              <a href="#work" class="nav__link">Work</a>
+            </li>
+            <li class="nav__item">
+              <a href="#footerr" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </div>
 
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
-                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-                        <li class="nav__item"><a href="#footerr" class="nav__link">Contact</a></li>
-                    </ul>
-                </div>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
 
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-menu'></i>
-                </div>
-            </nav>
-        </header>
+    <main class="l-main">
+      <!--===== HOME =====-->
+      <section class="home bd-grid" id="home">
+        <div class="home__data">
+          <h1 class="home__title">
+            Hi,<br />I'am <br /><span class="home__title-color"
+              >Satyabrata Das</span
+            ><br />
+            I am a Full Stack <br />web Developer
+          </h1>
+          <p class="home__title">
+            I'm a full stack web developer with experience in effective
+            collaboration<br />
+            and a keen interest in solving problems and coming up with effective
+            <br />solutions. With a good understanding of Data Structures and
+            Algorithms,<br />
+            proficiency in React, and with a stronghold on MERN stack.
+          </p>
+          <br />
+          <a href="resume.pdf" class="button" download>
+            See My Resume <i class="fa fa-download"></i
+          ></a>
+        </div>
 
-        <main class="l-main">
-            <!--===== HOME =====-->
-            <section class="home bd-grid" id="home">
-                <div class="home__data">
-                    <h1 class="home__title">Hi,<br>I'am <br><span class="home__title-color">Satyabrata Das</span><br> I am a Full Stack <br>web Developer</h1>
-                    <p class="home__title">I'm a full stack web developer with experience in effective collaboration<br> and a keen interest in solving problems and coming up with effective 
-                        <br>solutions. With a good understanding of Data Structures and Algorithms,<br> proficiency in React, and with a stronghold on MERN stack.</p>
-                    <br>
-                    <a href="resume.pdf" class="button" download>
-                        See My Resume  <i class="fa fa-download"></i></a>
-                </div>
+        <div class="home__social">
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/satyabrata-das-32849b1a7/"
+            class="home__social-icon"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a
+            target="_blank"
+            href="https://github.com/Satya12325"
+            class="home__social-icon"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a
+            target="_blank"
+            href="mailto:satya12325@gmail.com"
+            class="home__social-icon"
+            ><i class="fad fa-envelope"></i
+          ></a>
+          <a
+            target="_blank"
+            href="https://twitter.com/Satyabr22026742?t=YoByXjq0OI2zkEblv3DvAw&s=08"
+            class="home__social-icon"
+            ><i class="bx bxl-twitter"></i
+          ></a>
+        </div>
 
-                <div class="home__social">
-                    <a target="_blank" href="https://www.linkedin.com/in/satyabrata-das-32849b1a7/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-                    <a target="_blank" href="https://github.com/Satya12325" class="home__social-icon"><i class='bx bxl-github' ></i></a>
-                    <a target="_blank" href="mailto:satya12325@gmail.com" class="home__social-icon"><i class="fad fa-envelope"></i></a>
-                    <a target="_blank" href="https://twitter.com/Satyabr22026742?t=YoByXjq0OI2zkEblv3DvAw&s=08" class="home__social-icon"><i class='bx bxl-twitter' ></i></a>
-                </div>
+        <div class="home__img">
+          <img src="assets/img/profilepic.png" alt="profile_picture" />
+        </div>
+      </section>
 
-                <div class="home__img">    
-                    <img src="assets/img/profilepic.png" alt="profile_picture">
-                </div>
-            </section>
+      <!--===== ABOUT =====-->
+      <section class="about section" id="about">
+        <h2 class="section-title">About Me</h2>
 
-            <!--===== ABOUT =====-->
-            <section class="about section " id="about">
-                <h2 class="section-title">About Me</h2>
+        <div class="about__container bd-grid">
+          <div class="about__img">
+            <img src="assets/img/pppp.jpg" alt="about img" />
+          </div>
 
-                <div class="about__container bd-grid">
-                    <div class="about__img">
-                        <img src="assets/img/pppp.jpg" alt="about img">
-                    </div>
-                    
-                    <div>
-                        <div  class="about__ul">
-                            <h2 class="about__subtitle">I'am </h2><h2 class="txt-type about__subtitle" data-wait="3000" data-words="  "></h2>
-                            <!-- <ul class="about__subtitleh2">
+          <div>
+            <div class="about__ul">
+              <h2 class="about__subtitle">I'am</h2>
+              <h2
+                class="txt-type about__subtitle"
+                data-wait="3000"
+                data-words="  "
+              ></h2>
+              <!-- <ul class="about__subtitleh2">
                                 <li><h2 > Satyabrata Das</h2 ></li>
                                 <li><h2 > Full Stack develope</h2 ></li>
                                 <li><h2 >Back End Develope</h2 > </li>
                                 <li><h2 >Front End Develope</h2> </li>
                             </ul> -->
+            </div>
+            <p class="about__text">
+              I am a Full stack web developer. I have made some projects using
+              HTML, CSS, Javascript, React, Node.js, Mongodb and Express. I am
+              passionate about solving real-world problems in the field of web
+              development and software engineering. Eager to be a part of a team
+              which gives me ability to learn and grow . My hobbies are Watching
+              movies,listening to podcasts,listening to music
+            </p>
+          </div>
+        </div>
+      </section>
 
-                        </div>
-                        <p class="about__text">I am a Full stack web developer. I have made some projects using HTML, CSS, Javascript, React, Node.js, Mongodb and Express.
-                            I am passionate about solving real-world problems in the field of web development and software engineering. Eager to be a part of a team which gives me ability to learn and grow . My hobbies are Watching movies,listening to podcasts,listening to music</p>           
-                    </div>                                   
-                </div>
-            </section>
+      <!--===== SKILLS =====-->
+      <section class="skills section" id="skills">
+        <h2 class="section-title">Skills</h2>
 
-            <!--===== SKILLS =====-->
-            <section class="skills section" id="skills">
-                <h2 class="section-title">Skills</h2>
+        <div class="skills__container bd-grid">
+          <div>
+            <h2 class="skills__subtitle">Front End</h2>
+            <!-- <p class="skills__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit optio id vero amet, alias architecto consectetur error eum eaque sit.</p> -->
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-html5 skills__icon"></i>
+                <span class="skills__name">HTML5</span>
+              </div>
+              <div class="skills__bar skills__html"></div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-css3 skills__icon"></i>
+                <span class="skills__name">CSS3</span>
+              </div>
+              <div class="skills__bar skills__css"></div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-javascript skills__icon"></i>
+                <span class="skills__name">JAVASCRIPT</span>
+              </div>
+              <div class="skills__bar skills__js"></div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="fab fa-react skills__icon"></i>
+                <span class="skills__name">ReactJs</span>
+              </div>
+              <div class="skills__bar skills__ux"></div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-redux skills__icon"></i>
+                <span class="skills__name">Redux</span>
+              </div>
+              <div class="skills__bar skills__ux"></div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="fab fa-npm skills__icon"></i>
+                <span class="skills__name">Npm</span>
+              </div>
+              <div class="skills__bar skills__ux"></div>
+            </div>
 
-                <div class="skills__container bd-grid">          
-                    <div>
-                        <h2 class="skills__subtitle">Front End</h2>
-                        <!-- <p class="skills__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit optio id vero amet, alias architecto consectetur error eum eaque sit.</p> -->
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                
-                                <i class='bx bxl-html5 skills__icon'></i>
-                                <span class="skills__name">HTML5</span>
-                            </div>
-                            <div class="skills__bar skills__html">
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="fab fa-bootstrap skills__icon"></i>
+                <span class="skills__name">Bootstrap</span>
+              </div>
+              <div class="skills__bar skills__ux"></div>
+            </div>
+          </div>
+          <!--  -->
 
-                            </div>
-                            
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-css3 skills__icon'></i>
-                                <span class="skills__name">CSS3</span>
-                            </div>
-                            <div class="skills__bar skills__css">
-                                
-                            </div>
-                            
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-javascript skills__icon' ></i>
-                                <span class="skills__name">JAVASCRIPT</span>
-                            </div>
-                            <div class="skills__bar skills__js">
-                                
-                            </div>
-                            
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class="fab fa-react skills__icon"></i>
-                                <span class="skills__name">ReactJs</span>
-                            </div>
-                            <div class="skills__bar skills__ux">
-                                
-                            </div>
-                            
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-redux skills__icon'></i>
-                                <span class="skills__name">Redux</span>
-                            </div>
-                            <div class="skills__bar skills__ux">
-                                
-                            </div>
-                            
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class="fab fa-npm skills__icon"></i>
-                                <span class="skills__name">Npm</span>
-                            </div>
-                            <div class="skills__bar skills__ux">
-                                
-                            </div>
-                            
-                        </div>
+          <div>
+            <h2 class="skills__subtitle">Back End</h2>
+            <!-- <p class="skills__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit optio id vero amet, alias architecto consectetur error eum eaque sit.</p> -->
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="fab fa-node-js skills__icon"></i>
+                <span class="skills__name">Node Js</span>
+              </div>
+              <div class="skills__bar skills__html"></div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bxl skills__icon">ex</i>
+                <span class="skills__name">Express</span>
+              </div>
+              <div class="skills__bar skills__css"></div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx skills__icon">
+                  <img
+                    src="https://dev-saj.netlify.app/static/media/mongodb.e20e5688.png"
+                  />
+                </i>
+                <span class="skills__name">MongoDB</span>
+              </div>
+              <div class="skills__bar skills__js"></div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class="fab fa-bootstrap skills__icon"></i>
-                                <span class="skills__name">Bootstrap</span>
-                            </div>
-                            <div class="skills__bar skills__ux">
-                                
-                            </div>
-                            
-                        </div>
+      <!--===== WORK =====-->
+      <section class="work section" id="work">
+        <h2 class="section-title">Work</h2>
 
-                    </div>
-                    <!--  -->
-                                 
-                        <div>
-                            <h2 class="skills__subtitle">Back End</h2>
-                            <!-- <p class="skills__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit optio id vero amet, alias architecto consectetur error eum eaque sit.</p> -->
-                            <div class="skills__data">
-                                <div class="skills__names">
-                                    
-                                    <i class="fab fa-node-js skills__icon"></i>
-                                    <span class="skills__name">Node Js</span>
-                                </div>
-                                <div class="skills__bar skills__html">
-    
-                                </div>
-                               
-                            </div>
-                            <div class="skills__data">
-                                <div class="skills__names">
-                                    <i class='bxl skills__icon'>ex</i>
-                                    <span class="skills__name">Express</span>
-                                </div>
-                                <div class="skills__bar skills__css">
-                                    
-                                </div>
-                                
-                            </div>
-                            <div class="skills__data">
-                                <div class="skills__names">
-                                    <i class='bx skills__icon' >
-                                        <img src="https://dev-saj.netlify.app/static/media/mongodb.e20e5688.png"/>
-                                    </i>
-                                    <span class="skills__name">MongoDB</span>
-                                </div>
-                                <div class="skills__bar skills__js">
-                                    
-                                </div>
-                                
-                            </div>
-                           
-    
-                        </div>
-                    
-                </div>
-            </section>
+        <div class="work__container bd-grid">
+          <div class="work__img">
+            <img src="assets/img/project-1.png" alt="" />
+          </div>
 
-            <!--===== WORK =====-->
-            <section class="work section" id="work">
-                <h2 class="section-title">Work</h2>
+          <div id="work_title" class="work__img">
+            <h1>The New York Times <span>newspaper App(Clone)</span></h1>
+            <div>
+              A web application of an American daily newspaper based in New York
+              City.
+              <p>
+                <b>Tech Stack:</b>
+                HTML | CSS | Javascript | JSON Server
+              </p>
 
-                <div class="work__container bd-grid">
-                    <div class="work__img">
-                        <img src="assets/img/project-1.png" alt="">
-                    </div>
+              <p>Built it in 12 days with 3 members</p>
+            </div>
+          </div>
+          <div class="work__img" id="work_title">
+            <a
+              target="_blank"
+              href="https://github.com/Satya12325/NewYorkTimeClone"
+            >
+              <button class="btn"><i class="fab fa-github-square"></i></button>
+            </a>
+            <a
+              target="_blank"
+              href="https://github.com/Satya12325/NewYorkTimeClone"
+            >
+              <button class="btn"><i class="bx bx-globe"></i></button>
+            </a>
+          </div>
 
-                    <div id="work_title" class="work__img">
-                        <h1>The New York Times <span>newspaper App(Clone)</span></h1>
-                        <div>
-                            A web application of an American daily newspaper based in New York City with a worldwide readership
-                            Used the Open source New York time API Developed the Home, World page, Science, Arts, and Business pages
-                            Key Up functionality.
-                            <p> Built it in 12 days with 3 members</p>
-                        </div>
-                    </div>
-                    <div class="work__img" id="work_title">
-                        <a target="_blank" href="https://github.com/Satya12325/NewYorkTimeClone">
-                            <button class="btn"><i class="fab fa-github-square"></i></button>
-                        </a>
-                        <a target="_blank" href="https://satya12325.github.io/NewYorkTimeClone/">
-                            <button class="btn"><i class='bx bx-globe'></i></button>
-                        </a>
-                            
-                    </div>
+          <div class="work__img">
+            <img src="assets/img/hello_brightline.png" alt="" />
+          </div>
 
+          <div id="work_title" class="work__img">
+            <h1>
+              Hello Brightline <span>healthcare services App(Clone)</span>
+            </h1>
+            <div>
+              A web application to provide healthcare services for children and
+              their families. I Used the mediaquery for responsiveness.
+              <p>
+                <b>Tech Stack:</b>
+                HTML | CSS | Javascript
+              </p>
+              <p>Built it in 7 days with 3 members</p>
+            </div>
+          </div>
+          <div id="work_title" class="work__img">
+            <a
+              target="_blank"
+              href="https://github.com/Satya12325/NewYorkTimeClone"
+            >
+              <button class="btn"><i class="fab fa-github-square"></i></button>
+            </a>
+            <a
+              target="_blank"
+              href="https://github.com/Satya12325/NewYorkTimeClone"
+            >
+              <button class="btn"><i class="bx bx-globe"></i></button>
+            </a>
+          </div>
+        </div>
 
-                    <div class="work__img">
-                        <img src="assets/img/hello_brightline.png" alt="">
-                    </div>
-
-                    <div id="work_title" class="work__img">
-                        <h1>Hello Brightline <span>healthcare services App(Clone)</span></h1>
-                        <div>
-                            A web application to provide healthcare services for children and their families.
-                           I Used the mediaquery for responsiveness. Used HTML,CSS and Javascript 
-                            <p> Built it in 7 days with 3 members</p>
-                        </div>
-                    </div>
-                    <div id="work_title" class="work__img">
-                        <a target="_blank" href="https://github.com/Satya12325/Hello_brightLine">
-                            <button class="btn"><i class="fab fa-github-square"></i></button>
-                        </a>
-                        <a target="_blank" href="https://satya12325.github.io/Hello_brightLine/">
-                            <button class="btn"><i class='bx bx-globe'></i></button>
-                        </a>
-                            
-                    </div>
-
-                    
-                </div>
-
-                <!-- <div class="work__container bd-grid">
+        <!-- <div class="work__container bd-grid">
                     <div class="work__img">
                         <img src="assets/img/project-1.png" alt="">
                     </div>
@@ -307,10 +347,10 @@
 
                     
                 </div> -->
-            </section>
+      </section>
 
-            <!--===== CONTACT =====-->
-            <!-- <section class="contact section" id="contact">
+      <!--===== CONTACT =====-->
+      <!-- <section class="contact section" id="contact">
                 <h2 class="section-title">Get in Touch</h2>
 
                 <div class="contact__container bd-grid">
@@ -322,30 +362,48 @@
                     </form>
                 </div>
             </section> -->
-        </main>
+    </main>
 
-        <!--===== FOOTER =====-->
-        <footer class="footer" >
-            <p class="footer__title">Get in Touch</p>
-            <p class="footer__title">Satyabrata Das</p>
-            <div class="footer__social">
-                <a href="tel:7978544299" class="footer__icon"><i class="fas fa-phone-alt"></i></a>
-                <a target="_blank" href="https://www.linkedin.com/in/satyabrata-das-32849b1a7/" class="footer__icon"><i class='bx bxl-linkedin'></i></a>
-                    <a target="_blank" href="https://github.com/Satya12325" class="footer__icon"><i class='bx bxl-github' ></i></a>
-                    <a target="_blank" href="mailto:satya12325@gmail.com" class="footer__icon"><i class="fad fa-envelope"></i></a>
-                    <a target="_blank" href="https://twitter.com/Satyabr22026742?t=YoByXjq0OI2zkEblv3DvAw&s=08" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
-                
-            </div>
-            <p id="footerr">&#169; 2021 Made by SATYA </p>
-        </footer>
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+      <p class="footer__title">Get in Touch</p>
+      <p class="footer__title">Satyabrata Das</p>
+      <div class="footer__social">
+        <a href="tel:7978544299" class="footer__icon"
+          ><i class="fas fa-phone-alt"></i
+        ></a>
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/satyabrata-das-32849b1a7/"
+          class="footer__icon"
+          ><i class="bx bxl-linkedin"></i
+        ></a>
+        <a
+          target="_blank"
+          href="https://github.com/Satya12325"
+          class="footer__icon"
+          ><i class="bx bxl-github"></i
+        ></a>
+        <a
+          target="_blank"
+          href="mailto:satya12325@gmail.com"
+          class="footer__icon"
+          ><i class="fad fa-envelope"></i
+        ></a>
+        <a
+          target="_blank"
+          href="https://twitter.com/Satyabr22026742?t=YoByXjq0OI2zkEblv3DvAw&s=08"
+          class="footer__icon"
+          ><i class="bx bxl-twitter"></i
+        ></a>
+      </div>
+      <p id="footerr">&#169; 2021 Made by SATYA</p>
+    </footer>
 
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
 
-        <!--===== SCROLL REVEAL =====-->
-        <script src="https://unpkg.com/scrollreveal"></script>
-
-        <!--===== MAIN JS =====-->
-        <script src="assets/js/main.js"></script>
-        
-       
-    </body>
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
